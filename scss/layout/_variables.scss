@@ -1,13 +1,13 @@
 :root {
---variable-color: #bd650e;
---variable-color2: #eeb112;
+--variable-color: #3b668f;
+--variable-color2: #63aecc;
 --variable-color3: white;
 --variable-color4: black;
---variable-color5: #6e6e6d;
+--variable-color5: #5d9eb8;
 }
 
-$color: rgb(253, 162, 3);
-$color2: rgb(104, 96, 82);
+$color: rgb(68, 129, 145);
+$color2: rgb(65, 101, 112);
 $colorw: white;
 
 a {
@@ -23,7 +23,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    padding: 10px 0;
+    padding:40px 20px;
     justify-content: center;
 }
 .container3  {
@@ -43,10 +43,33 @@ a {
     justify-content: center;
 }
 
+.section{
+    margin: 5rem 5rem;
+}
+
+.section h2{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 80px;
+    padding: 1rem 1rem;
+    filter: grayscale(20%);
+}
+
 .titulo1 {
-    color: var(--variable-color, rgb(238, 161, 18));
+    color: var(--variable-color1, rgb(45, 118, 136));
     font-family: "Anton", sans-serif;
-    font-weight: 900;
+    font-weight: 10;
     font-size: clamp(2.2rem, 5vw, 4rem);
 }
 
@@ -57,7 +80,7 @@ h1 {
 
 h2 {
     @extend .titulo1;
-    color: var(--variable-color, rgb(240, 219, 181));
+    color: var(--variable-color1, rgb(45, 118, 136));
     text-shadow: 2px 2px 4px rgba(167, 63, 63, 0.2);
     margin: 40px 0;  
 
@@ -68,7 +91,7 @@ h5 {
 }
 
 p {
-    color: black;
+    color: rgb(253, 255, 255);
     font-family: "Anton", sans-serif;
     font-weight: 500;
 }

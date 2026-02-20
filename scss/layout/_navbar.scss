@@ -10,7 +10,7 @@
 
 body {
   min-height: 100vh;
-  background: rgb(255, 255, 255);
+  background: rgb(19, 29, 31);
   background-size: cover;
   background-position: center;
 }
@@ -64,7 +64,7 @@ body {
 
 .navbar a {
   font-size: 1.1rem;
-  color: rgb(36, 35, 32);
+  color: var(--variable-color2, rgb(157, 206, 221));
   text-decoration: none;
   font-weight: 500;
   margin-left: 1.5rem;
@@ -78,7 +78,7 @@ body {
   position: absolute;
   right: 5%;
   font-size: 2.2rem;
-  color: rgb(54, 53, 52);
+  color: rgb(55, 141, 180);
   cursor: pointer;
   display: none;
 }

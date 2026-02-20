@@ -14,13 +14,13 @@ footer {
 }
 
 .pie-pagina .grupo-1 .box a img {
-  width: 250px;
-  padding: 40px;
+
+  padding: 10px;
 
 }
 
 .pie-pagina .grupo-1 .box h6 {
-  color: #999692;
+  color: #5d8cb3;
   margin-bottom: 25px;
   font-size: 15px;
 }
@@ -33,7 +33,7 @@ footer {
 
 }
 
-.pie-pagina .grupo-1 .red-social a .ico {
+.pie-pagina .grupo-1 .red-social .box a {
   display: inline-block;
   text-decoration: none;
   width: 40px;
@@ -46,8 +46,16 @@ footer {
   transition: all 300ms ease;
 
 } 
+  .pie-pagina .grupo-1 .red-social .box a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain; /* Esto evita que la imagen se deforme */
+}
+  /* ... resto de tu código ... */
 
-.pie-pagina .grupo-1 .red-social a :hover {
+
+
+.pie-pagina .grupo-1 .red-social .box a .logo-brand:hover {
   color: aqua;
 }
 

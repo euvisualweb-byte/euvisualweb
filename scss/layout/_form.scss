@@ -8,7 +8,7 @@
 
 .btn-green {
     color: rgb(253, 253, 253);
-    background-color: rgb(204, 140, 77);
+    background-color: rgb(4, 83, 107);
     margin: auto;
     width: 360px;
     height: 80px;
@@ -17,7 +17,7 @@
 
 .btn-green-2 {
     color: rgb(253, 253, 253);
-    background-color: #d87c26;
+    background-color: #135e91;
     width: 400px;
     height: 80px;
     border-radius: 50px 20px;
@@ -33,7 +33,7 @@
 }
 
 .btn-green:active {
-    background-color: #f5c951;
+    background-color: #3b7b8f;
 }
 
 form {
@@ -76,8 +76,8 @@ input, textarea {
 }
 
 .field:focus {
-    border-color: #d89415;
-    box-shadow: 0 0 10px #be9069;
+    border-color: #2f70ad;
+    box-shadow: 0 0 10px #16457a;
     align-content: center;
 
 }
