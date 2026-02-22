@@ -466,9 +466,10 @@ input, textarea {
 
 .card {
   border-radius: 20px;
+  background: rgb(253, 253, 253);
   box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
   width: 400px;
-  height: 700px;
+  height: 500px;
   transition: all 400ms ease;
   overflow: hidden;
   padding-bottom: 5px;
@@ -485,7 +486,7 @@ input, textarea {
 }
 
 .card img {
-  height: 250px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
   border-bottom-left-radius: 20px;
@@ -494,6 +495,7 @@ input, textarea {
 
 .card h3 {
   text-transform: uppercase;
+  color: rgb(17, 124, 167);
   letter-spacing: 5px;
   font-weight: 300px;
   text-align: center;
@@ -502,6 +504,7 @@ input, textarea {
 
 .card p {
   text-align: justify;
+  color: black;
   padding: 5px;
   font-size: 14px;
   display: block;
@@ -514,11 +517,11 @@ input, textarea {
   display: block;
   border: 0;
   outline: 0;
-  background-color: rgb(202, 140, 23);
+  background-color: rgb(10, 136, 209);
   width: 200px;
   height: 40px;
   padding: 5;
-  color: white;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   border-radius: 20px 10px;
   margin: 2rem auto;
@@ -532,7 +535,7 @@ input, textarea {
 }
 
 .cardp {
-  color: white;
+  color: rgb(15, 14, 14);
 }
 
 /* CARDS ZONA DE ANUNCIOS PAGINA COMUNIDAD */
@@ -549,7 +552,7 @@ input, textarea {
 
 .card4 {
   border-radius: 20px;
-  background-color: white;
+  background-color: rgb(66, 101, 129);
   box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
   width: 300px;
   height: 410px;
@@ -615,7 +618,7 @@ input, textarea {
 }
 
 .cardp {
-  color: white;
+  color: rgb(47, 79, 92);
 }
 
 * {
@@ -808,7 +811,6 @@ p {
   color: rgb(253, 255, 255);
   font-family: "Anton", sans-serif;
   font-weight: 500;
-  justify-content: left;
 }
 
 main {
@@ -844,7 +846,7 @@ main {
 
 .slider {
   width: 100%;
-  height: 800px;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -878,7 +880,7 @@ figure {
 
 .slide p {
   font-size: 1em;
-  width: 550px;
+  width: 450px;
   height: 400px;
   margin: 0;
   position: absolute;
