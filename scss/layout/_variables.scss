@@ -1,12 +1,13 @@
 :root {
 --variable-color: #3b668f;
---variable-color2: #63aecc;
+--variable-color1: rgb(88, 170, 196);
+--variable-color2: rgb(138, 203, 224), 218, 236;
 --variable-color3: white;
 --variable-color4: black;
 --variable-color5: #5d9eb8;
 }
 
-$color: rgb(68, 129, 145);
+$color: rgb(133, 210, 230);
 $color2: rgb(65, 101, 112);
 $colorw: white;
 
@@ -15,7 +16,7 @@ a {
 }
 
 .titulo {
-    color: $color2;
+    color: var(--variable-color1);
     font-size: clamp(2rem, 5vw, 4rem);
 }
 .container  {
@@ -23,7 +24,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    padding:40px 20px;
+    padding:20px 20px;
     justify-content: center;
 }
 .container3  {
@@ -67,20 +68,25 @@ a {
 }
 
 .titulo1 {
-    color: var(--variable-color1, rgb(45, 118, 136));
-    font-family: "Anton", sans-serif;
-    font-weight: 10;
-    font-size: clamp(2.2rem, 5vw, 4rem);
+    color: var(--variable-color1, rgb(145, 218, 236));
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+
+
+
 }
 
 h1 {
     @extend .titulo1;
-    text-shadow: 2px 2px 4px rgba(167, 63, 63, 0.2);
+    text-shadow: 2px 2px 4px rgb(29, 48, 53);
+    font-size: 3rem;
 }
 
 h2 {
     @extend .titulo1;
-    color: var(--variable-color1, rgb(45, 118, 136));
+    color: var(--variable-color1, rgb(145, 218, 236));
     text-shadow: 2px 2px 4px rgba(167, 63, 63, 0.2);
     margin: 40px 0;  
 
@@ -94,6 +100,7 @@ p {
     color: rgb(253, 255, 255);
     font-family: "Anton", sans-serif;
     font-weight: 500;
+    justify-content: left;
 }
 
 main {
