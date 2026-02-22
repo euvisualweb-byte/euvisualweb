@@ -273,7 +273,7 @@ footer {
 }
 
 .btn-green:hover {
-  background-color: #e4e1dc;
+  background-color: #507a86;
 }
 
 .btn-green:active {
@@ -281,7 +281,7 @@ footer {
 }
 
 form {
-  background-color: #f3efed;
+  background-color: #616263;
   display: block;
   text-align: center;
   justify-content: center;
@@ -297,7 +297,7 @@ form {
 
 .dropdown-menu {
   min-width: 25rem;
-  background-color: rgb(199, 195, 190);
+  background-color: rgb(186, 222, 243);
   border-radius: 20px 50px;
   text-align: center;
 }
@@ -540,7 +540,7 @@ input, textarea {
 
 /* CARDS ZONA DE ANUNCIOS PAGINA COMUNIDAD */
 .container4 {
-  background-color: rgb(32, 121, 161);
+  background-color: rgb(113, 170, 197);
   width: 100vh;
   height: auto;
   margin: 0;
@@ -552,7 +552,7 @@ input, textarea {
 
 .card4 {
   border-radius: 20px;
-  background-color: rgb(66, 101, 129);
+  background-color: rgb(40, 57, 71);
   box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
   width: 300px;
   height: 410px;
@@ -583,7 +583,7 @@ input, textarea {
   font-weight: bold;
   text-align: center;
   text-shadow: rgb(167, 163, 163) 0 0 rgba(0, 0, 0, 0.3);
-  color: rgb(50, 107, 160);
+  color: rgb(66, 159, 196);
   padding: 10px;
 }
 
@@ -601,7 +601,7 @@ input, textarea {
   display: block;
   border: 0;
   outline: 0;
-  background-color: rgb(44, 32, 9);
+  background-color: rgb(0, 0, 0);
   width: 200px;
   height: 40px;
   padding: 10px;
@@ -618,7 +618,11 @@ input, textarea {
 }
 
 .cardp {
-  color: rgb(47, 79, 92);
+  color: rgb(228, 235, 238);
+}
+
+.card-title .h4 {
+  color: white;
 }
 
 * {
@@ -685,7 +689,7 @@ input, textarea {
   transform: perspective(600px) rotateY(180deg);
   background: rgb(19, 39, 41);
   padding: 15px;
-  color: #367394;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -869,7 +873,7 @@ figure {
 .slide h1 {
   position: absolute;
   display: table-cell;
-  top: 20%;
+  top: 10%;
   font-size: 3em;
   width: 100%;
   text-align: center;
@@ -884,7 +888,7 @@ figure {
   height: 400px;
   margin: 0;
   position: absolute;
-  padding: 3rem;
+  padding: 2rem;
   top: 25%;
   color: var(--variable-color3);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);

@@ -91,7 +91,7 @@
 /* CARDS ZONA DE ANUNCIOS PAGINA COMUNIDAD */
 
 .container4 {
-    background-color: rgb(32, 121, 161);
+    background-color: rgb(113, 170, 197);
     width: 100vh;
     height: auto;
     margin: 0;
@@ -103,7 +103,7 @@
 
 .card4 {
     border-radius: 20px;
-    background-color: rgb(66, 101, 129);
+    background-color: rgb(40, 57, 71);
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
     width: 300px;
     height: 410px;
@@ -133,11 +133,12 @@
     font-weight: bold;
     text-align: center;
     text-shadow: rgb(167, 163, 163) 0 0 rgba(0, 0, 0, 0.3);
-    color: rgb(50, 107, 160);
+    color: rgb(66, 159, 196);
     padding: 10px;
 }
 .card4 p {
     text-align: justify;
+
     padding: 5px;
     font-size: 14px;
     display: block;
@@ -149,7 +150,7 @@
     display: block;
     border: 0;
     outline: 0;
-    background-color: rgb(44, 32, 9);
+    background-color: rgb(0, 0, 0);
     width:200px;
     height: 40px;
     padding: 10px;
@@ -166,5 +167,9 @@
 }
 
 .cardp  {
-    color: rgb(47, 79, 92);
+    color: rgb(228, 235, 238);
+}
+
+.card-title .h4{
+    color: white;
 }
