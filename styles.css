@@ -732,6 +732,7 @@ input, textarea {
   --variable-color3: white;
   --variable-color4: black;
   --variable-color5: #5d9eb8;
+  --variable-color6: #132f3a;
 }
 
 a {
@@ -824,6 +825,26 @@ main {
 
 .container .py-4 {
   justify-content: center;
+}
+
+.boton-redireccion {
+  background-color: var(--variable-color);
+  color: #fcfcfd;
+  width: 300px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 10px;
+  margin: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid var(--variable-color6);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.boton-redireccion:hover {
+  background-color: #ffffff;
+  color: var(--variable-color);
 }
 
 .video-container {
