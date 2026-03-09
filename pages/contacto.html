@@ -20,7 +20,7 @@
 </head>
 <body>
    <header class="header">
-    <a href="../index.html"><img src="../img/logo4.png" width="156" height="100" alt="logo eu"></a>
+    <a href="../index.html"><img src="../img/logo1eusom.png" alt="logo eu"></a>
     <input type="checkbox" id="check">
     <label for="check" class="icons">
     <i class='bx  bx-menu' id="menu-icon"></i>
@@ -37,34 +37,34 @@
   <div class="container">
     <h1>CONTACTO</h1>
     <p>Aquí podrás envíarnos un mensaje solicitando información, darnos sugerencias o cualquier otra consulta.
-        No olvides que tu opinión nos intersa y es muy importante para nosotros.
+        No olvides que tu opinión nos interesa y es muy importante para nosotros.
         Nos pondremos en contaco contigo a la brevedad.</p>
-        <form action="">
-        <p>Nombre</p>
-        <input type="text" class="field"><br/>
-        <br>
-
-        <p>Correo electrónico</p>
-        <input type="text" class="field"><br/>
-        <br>
-
-        <p>Asunto</p>
-        <input type="text" class="field"><br/>
-        <br>
-
-        <p>Mensaje</p>
-        <input type="text" class="field"><br/>
-        <br>
-
-        <p>
-            <input type="submit" class="btn btn-green" value="Enviar Datos"></p>
-
+        <form action="https://formsubmit.co/euvisualweb@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" placeholder="Mensaje"></textarea>
+                <div class="form-txt">  
+                <a href="#">Politica de privacidad</a>
+                <a href="#">Terminos y condiciones</a>
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/pages/miproyectoenviado.html">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
         </form>
+  </div>
    </main>
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
-                <a href="index.html">
+                <a href="../index.html">
                     <img src="../img/logo1.png" width="250px" alt="Logo EU">
                 </a>
             </div>

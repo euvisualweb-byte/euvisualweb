@@ -1,89 +1,78 @@
-.btn {
-    border-radius: 10px;
-    display: inline-block;
-    padding: 30px 15px;
-    text-decoration: none;
-    text-shadow: 0 1px rgba(0, 0, 0, 1);
-}
 
-.btn-green {
-    color: rgb(253, 253, 253);
-    background-color: rgb(4, 83, 107);
-    margin: auto;
-    width: 360px;
-    height: 80px;
-    padding: 20px;
-}
-
-.btn-green-2 {
-    color: rgb(253, 253, 253);
-    background-color: #135e91;
-    width: 400px;
-    height: 80px;
-    border-radius: 50px 20px;
-
-}
-
-.btn-green-2:hover {
-    background-color: #86827c;
-
-}
-.btn-green:hover {
-    background-color: #507a86;
-}
-
-.btn-green:active {
-    background-color: #3b7b8f;
-}
+ /*mi proyecto*/
 
 form {
-    background-color: #616263;
-    display: block;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    padding: 40px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
     border-radius: 20px;
-    color: #1f1b1b;
-    box-decoration-break: inherit;
-    font-size: 1em;
-    font-style: unset;
-    padding: 20px;
-    width: 440px;
-
-}
-
-.dropdown-menu {
-    min-width: 25rem;
-    background-color: rgb(186, 222, 243);
-    border-radius: 20px 50px;
     text-align: center;
-
+    width: 400px;
 }
 
-input, textarea {
-    border: 0;
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-family: "poppins";
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 15px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: var(--variable-color3);
+    border: 2px solid #8fb6c0;
+    font-family: "poppins";
+    color: var(--variable-color4);
     outline: none;
-    width: 380px;
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-
 }
 
-.field {
-    border: solid 1px #615e5e;
-    padding: 10px;
-    text-align: justify;
+textarea {
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fcf9f9;
+    border: 2px solid #8fb6c0;
+    color: #052a42;
+    outline: none;
 }
 
-.field:focus {
-    border-color: #2f70ad;
-    box-shadow: 0 0 10px #16457a;
-    align-content: center;
 
+
+
+input::placeholder, textarea::placeholder {
+    color: #bbcad8;
 }
 
-.center-content {
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    align-content: center;
 }
 
+.form-txt a {
+    color: #507a86;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 16px;
+    color: #edfff0;
+    border: 0;
+    border-radius: 0px;
+    background-color: var(--variable-color5);;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--variable-color7);;
+}

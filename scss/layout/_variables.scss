@@ -1,11 +1,12 @@
 :root {
---variable-color: #3b668f;
---variable-color1: rgb(88, 170, 196);
---variable-color2: rgb(138, 203, 224), 218, 236;
+--variable-color: #2E566A;
+--variable-color1: #376C84;
+--variable-color2: #3F819C;
 --variable-color3: white;
 --variable-color4: black;
---variable-color5: #5d9eb8;
+--variable-color5: #00B1B8;
 --variable-color6: #132f3a;
+--variable-color7: #b8dfee;
 }
 
 $color: rgb(133, 210, 230);
@@ -28,11 +29,46 @@ a {
     padding:20px 20px;
     justify-content: center;
 }
+
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 .container3  {
     max-width: 1440px;
     padding: 0 20px;
 }
 
+ .container3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+
+.container4 {
+    background-color: rgb(119, 166, 187);
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*
 .container4  {
     margin: 0;
     padding: 0;
@@ -42,6 +78,15 @@ a {
     gap: 20px;
     margin-bottom: 10px;
     padding: 10px 10px;
+    justify-content: center;
+}
+*/
+
+.container6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding:20px 20px;
     justify-content: center;
 }
 
@@ -69,7 +114,7 @@ a {
 }
 
 .titulo1 {
-    color: var(--variable-color1, rgb(145, 218, 236));
+    color: var(--variable-color, rgb(19, 77, 92));
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -81,14 +126,14 @@ a {
 
 h1 {
     @extend .titulo1;
-    text-shadow: 2px 2px 4px rgb(29, 48, 53);
+
     font-size: 3rem;
 }
 
 h2 {
     @extend .titulo1;
-    color: var(--variable-color1, rgb(145, 218, 236));
-    text-shadow: 2px 2px 4px rgba(167, 63, 63, 0.2);
+    color: var(--variable-color, rgb(47, 105, 119));
+
     margin: 40px 0;  
 
 }
@@ -98,7 +143,7 @@ h5 {
 }
 
 p {
-    color: rgb(253, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Anton", sans-serif;
     font-weight: 500;
 
@@ -117,20 +162,21 @@ main {
 .boton-redireccion {
     background-color: var(--variable-color);
     color: #fcfcfd;
-    width: 300px;
+    width: 400px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid var(--variable-color6);
-    border-radius: 15px;
+    border: 2px solid var(--variable-color3);
+    border-radius: 50px;
     cursor: pointer;
 
 }
 
 .boton-redireccion:hover {
-    background-color: #ffffff;
-    color: var(--variable-color);
+    background-color: var(--variable-color3);
+    border: 2px solid var(--variable-color);
+    color: var(--variable-color4);
 }
