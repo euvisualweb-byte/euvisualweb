@@ -57,17 +57,6 @@ a {
 }
 
 
-.container4 {
-    background-color: rgb(119, 166, 187);
-    width: 100vw;
-    height: auto;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
 /*
 .container4  {
     margin: 0;
@@ -132,7 +121,7 @@ h1 {
 
 h2 {
     @extend .titulo1;
-    color: var(--variable-color, rgb(47, 105, 119));
+    color: var(--variable-color2, rgb(47, 105, 119));
 
     margin: 40px 0;  
 
@@ -179,4 +168,78 @@ main {
     background-color: var(--variable-color3);
     border: 2px solid var(--variable-color);
     color: var(--variable-color4);
+}
+
+.container9 {
+    display: flex;
+    max-width: 100%;
+    height: 80vh;
+    position: relative;
+    background-image: url(/img/img-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.container9 .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.container9 .wrap .box {
+    flex-basis: 80%;
+    color:white;
+    text-align: left;
+    align-self: center;
+}
+
+.container9 .wrap .box span {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.container9 .wrap .box h1 {
+    font-size: 60px;
+    line-height: .9;
+    padding-bottom: 10px;
+}
+
+.container9 .wrap .box p {
+    font-size: 15px;
+    line-height: 1.2;
+    color: #fcfcfd;
+}
+
+.container9 .wrap .box .botones {
+    display: flex;
+    margin-top: 30px;
+    flex-flow: row wrap;
+}
+
+.container9 .wrap .box .botones .btn1 {
+    flex-basis: 30%;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fcfcfd;
+}
+
+.container9 .wrap .box .botones .btn2 {
+    flex-basis: 30%;
+    background-color: #fcfcfd;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;      
 }

@@ -456,7 +456,7 @@ input::placeholder, textarea::placeholder {
 
 .card {
   border-radius: 20px;
-  background: rgb(253, 253, 253);
+  background: rgb(255, 255, 255);
   box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
   width: 400px;
   height: 500px;
@@ -485,7 +485,7 @@ input::placeholder, textarea::placeholder {
 
 .card h3 {
   text-transform: uppercase;
-  color: rgb(17, 124, 167);
+  color: rgb(58, 71, 77);
   letter-spacing: 5px;
   font-weight: 300px;
   text-align: center;
@@ -507,7 +507,7 @@ input::placeholder, textarea::placeholder {
   display: block;
   border: 0;
   outline: 0;
-  background-color: rgb(10, 136, 209);
+  background-color: rgb(62, 94, 112);
   width: 200px;
   height: 40px;
   padding: 5;
@@ -530,8 +530,10 @@ input::placeholder, textarea::placeholder {
 
 /* CARDS ZONA DE ANUNCIOS PAGINA COMUNIDAD */
 .container4 {
-  background-color: rgb(113, 170, 197);
-  width: 100vh;
+  background-color: rgb(16, 69, 87);
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
   height: auto;
   margin: 0;
   display: flex;
@@ -542,7 +544,7 @@ input::placeholder, textarea::placeholder {
 
 .card4 {
   border-radius: 20px;
-  background-color: rgb(40, 57, 71);
+  background-color: var(--variable-color3);
   box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
   width: 300px;
   height: 410px;
@@ -558,11 +560,11 @@ input::placeholder, textarea::placeholder {
 }
 
 .card4 figure {
-  height: 200px;
+  height: 100px;
 }
 
 .card4 img {
-  height: 200px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
   border-bottom-left-radius: 20px;
@@ -570,10 +572,9 @@ input::placeholder, textarea::placeholder {
 }
 
 .card4 h4 {
-  font-weight: bold;
   text-align: center;
-  text-shadow: rgb(167, 163, 163) 0 0 rgba(0, 0, 0, 0.3);
-  color: rgb(66, 159, 196);
+  text-shadow: rgb(26, 24, 24) 0 0 rgba(0, 0, 0, 0.3);
+  color: rgb(9, 60, 73);
   padding: 10px;
 }
 
@@ -769,17 +770,6 @@ a {
   padding: 10px 0;
 }
 
-.container4 {
-  background-color: rgb(119, 166, 187);
-  width: 100vw;
-  height: auto;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
 /*
 .container4  {
     margin: 0;
@@ -837,7 +827,7 @@ h1 {
 }
 
 h2 {
-  color: var(--variable-color, rgb(47, 105, 119));
+  color: var(--variable-color2, rgb(47, 105, 119));
   margin: 40px 0;
 }
 
@@ -875,6 +865,80 @@ main {
   background-color: var(--variable-color3);
   border: 2px solid var(--variable-color);
   color: var(--variable-color4);
+}
+
+.container9 {
+  display: flex;
+  max-width: 100%;
+  height: 80vh;
+  position: relative;
+  background-image: url(/img/img-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.container9 .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.container9 .wrap .box {
+  flex-basis: 80%;
+  color: white;
+  text-align: left;
+  align-self: center;
+}
+
+.container9 .wrap .box span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.container9 .wrap .box h1 {
+  font-size: 60px;
+  line-height: 0.9;
+  padding-bottom: 10px;
+}
+
+.container9 .wrap .box p {
+  font-size: 15px;
+  line-height: 1.2;
+  color: #fcfcfd;
+}
+
+.container9 .wrap .box .botones {
+  display: flex;
+  margin-top: 30px;
+  flex-flow: row wrap;
+}
+
+.container9 .wrap .box .botones .btn1 {
+  flex-basis: 30%;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fcfcfd;
+}
+
+.container9 .wrap .box .botones .btn2 {
+  flex-basis: 30%;
+  background-color: #fcfcfd;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .video-container {
