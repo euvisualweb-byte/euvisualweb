@@ -66,7 +66,7 @@ body {
   font-size: 1.1rem;
   color: var(--variable-color, rgb(70, 109, 117));
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 200;
   margin-left: 1.5rem;
 }
 
@@ -717,14 +717,14 @@ input::placeholder, textarea::placeholder {
 }
 
 :root {
-  --variable-color: #2E566A;
-  --variable-color1: #376C84;
+  --variable-color: #0F172A;
+  --variable-color1: #3B82F6;
   --variable-color2: #3F819C;
-  --variable-color3: white;
+  --variable-color3: #F8FAFC;
   --variable-color4: black;
   --variable-color5: #00B1B8;
   --variable-color6: #132f3a;
-  --variable-color7: #b8dfee;
+  --variable-color7: #2E566A;
 }
 
 a {
@@ -736,6 +736,10 @@ a {
   font-size: clamp(2rem, 5vw, 4rem);
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -743,6 +747,17 @@ a {
   margin-bottom: 10px;
   padding: 20px 20px;
   justify-content: center;
+}
+
+.container5 {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin: 10%;
+  justify-content: center;
+  background-color: var(--variable-color3);
+  border-radius: 20px;
+  padding: 30px 30px;
 }
 
 .container2 {
@@ -847,7 +862,7 @@ main {
 }
 
 .boton-redireccion {
-  background-color: var(--variable-color);
+  background-color: var(--variable-color1);
   color: #fcfcfd;
   width: 400px;
   text-align: center;
@@ -865,80 +880,6 @@ main {
   background-color: var(--variable-color3);
   border: 2px solid var(--variable-color);
   color: var(--variable-color4);
-}
-
-.container9 {
-  display: flex;
-  max-width: 100%;
-  height: 80vh;
-  position: relative;
-  background-image: url(/img/img-hero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-}
-
-.container9 .wrap {
-  max-width: 1000px;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
-}
-
-.container9 .wrap .box {
-  flex-basis: 80%;
-  color: white;
-  text-align: left;
-  align-self: center;
-}
-
-.container9 .wrap .box span {
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
-
-.container9 .wrap .box h1 {
-  font-size: 60px;
-  line-height: 0.9;
-  padding-bottom: 10px;
-}
-
-.container9 .wrap .box p {
-  font-size: 15px;
-  line-height: 1.2;
-  color: #fcfcfd;
-}
-
-.container9 .wrap .box .botones {
-  display: flex;
-  margin-top: 30px;
-  flex-flow: row wrap;
-}
-
-.container9 .wrap .box .botones .btn1 {
-  flex-basis: 30%;
-  border: solid 2px;
-  border-radius: 20px;
-  padding: 10px 30px 10px 30px;
-  margin-right: 20px;
-  text-align: center;
-  text-decoration: none;
-  color: #fcfcfd;
-}
-
-.container9 .wrap .box .botones .btn2 {
-  flex-basis: 30%;
-  background-color: #fcfcfd;
-  border: solid 2px;
-  border-radius: 20px;
-  padding: 10px 30px 10px 30px;
-  margin-right: 20px;
-  text-align: center;
-  text-decoration: none;
-  color: black;
 }
 
 .video-container {
@@ -989,7 +930,7 @@ figure {
   position: absolute;
   display: table-cell;
   top: 10%;
-  font-size: 3em;
+  font-size: 4em;
   width: 100%;
   text-align: center;
   margin-top: 10px;
@@ -1061,6 +1002,82 @@ figure {
   1000% {
     left: 0;
   }
+}
+.container9 {
+  display: flex;
+  max-width: 100%;
+  height: 60vh;
+  margin-top: 80px;
+  position: relative;
+  background-image: url(/img/imgojos1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container9 .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.container9 .wrap .box {
+  flex-basis: 100%;
+  margin-left: 10%;
+  color: white;
+  text-align: left;
+  align-self: center;
+}
+
+.container9 .wrap .box span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.container9 .wrap .box h1 {
+  font-size: 5em;
+  line-height: 0.9;
+  color: #b8dfee;
+  padding-bottom: 10px;
+}
+
+.container9 .wrap .box p {
+  font-size: 15px;
+  line-height: 1.2;
+  color: #fcfcfd;
+}
+
+.container9 .wrap .box .botones {
+  display: flex;
+  margin-top: 30px;
+  flex-flow: row wrap;
+}
+
+.container9 .wrap .box .botones .btn1 {
+  flex-basis: 30%;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fcfcfd;
+}
+
+.container9 .wrap .box .botones .btn2 {
+  flex-basis: 30%;
+  background-color: #fcfcfd;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
