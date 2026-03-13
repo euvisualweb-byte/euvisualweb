@@ -727,6 +727,10 @@ input::placeholder, textarea::placeholder {
   --variable-color7: #2E566A;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }
@@ -1009,7 +1013,7 @@ figure {
   height: 60vh;
   margin-top: 80px;
   position: relative;
-  background-image: url(/img/imgojos1.png);
+  background-image: url(../../img/img-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1032,7 +1036,7 @@ figure {
   align-self: center;
 }
 
-.container9 .wrap .box span {
+git push .container9 .wrap .box span {
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 500;
