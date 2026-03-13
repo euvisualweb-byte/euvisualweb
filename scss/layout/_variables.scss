@@ -13,6 +13,8 @@ $color: rgb(133, 210, 230);
 $color2: rgb(65, 101, 112);
 $colorw: white;
 
+* {box-sizing: border-box;}
+
 a {
     text-decoration: none;
 }
@@ -124,8 +126,6 @@ a {
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
-
-
 
 }
 
