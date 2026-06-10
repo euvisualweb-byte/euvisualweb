@@ -8,19 +8,14 @@
   font-family: Poppins, sans-serif;
 }
 
-body {
-  min-height: 100vh;
-  background: rgb(255, 255, 255);
-  background-size: cover;
-  background-position: center;
-}
+
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.8rem 10%;
+  padding: 0.3rem 10%;
 /*   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(50px); */
   display: flex;
@@ -36,7 +31,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(247, 243, 243, 0.1);
+  background: rgba(97, 60, 35, 0.1);
   backdrop-filter: blur(50px);
   z-index: -1;
 }
@@ -48,7 +43,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(50deg, trasparent, rgba(206, 204, 202, 0.4), transparent);
+  background: linear-gradient(50deg, trasparent, rgba(88, 65, 42, 0.4), transparent);
   transition: .5s;
 }
 
@@ -63,11 +58,11 @@ body {
 }
 
 .navbar a {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 1.1rem;
   color: var(--variable-color, rgb(70, 109, 117));
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 400;
   margin-left: 1.5rem;
 }
 
@@ -115,7 +110,7 @@ body {
     left: 0;
     width: 100%;
     height: 0;
-    background: rgba(74, 144, 185, 0.1);
+    background: rgba(95, 69, 35, 0.1);
     backdrop-filter: blur(50px);
     overflow: hidden;
     transition: .2s ease;

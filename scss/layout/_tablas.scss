@@ -1,0 +1,26 @@
+
+table {
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: poppins, sans-serif;
+}
+th {
+    font-family: poppins, sans-serif;
+    background-color: var(--variable-color7, rgb(36, 93, 105));
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+td {
+    font-family: poppins, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
