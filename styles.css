@@ -786,20 +786,20 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
-  padding: 20px 20px;
+  margin-bottom: 5px;
+  padding: 5px 5px;
   justify-content: center;
 }
 
 .container5 {
-  width: 80%;
+  max-width: 100%;
   flex-wrap: wrap;
   margin-top: 10%;
-  margin: 10%;
+  margin: 5%;
   justify-content: center;
   background-color: var(--variable-color3);
   border-radius: 20px;
-  padding: 15px 15px;
+  padding: 10px 10px;
 }
 
 .container2 {
@@ -812,18 +812,12 @@ body {
 }
 
 .container3 {
-  max-width: 1440px;
-  padding: 0 20px;
-}
-
-.container3 {
   width: 100%;
-  height: auto;
+  margin-top: 10%;
   display: flex;
-  justify-content: space-between;
-  position: relative;
+  margin: 5%;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
   padding: 10px 0;
 }
 
@@ -927,6 +921,26 @@ main {
   display: block;
   width: 80%;
   height: 100vh;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .pdfview {
+  margin: auto;
+  display: block;
+  width: 90%;
+  height: 100vh;
+  padding: 30px 30px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.img1 {
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin: 20px 20px;
+  padding: 20px 20px;
   border-radius: 20px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -1131,7 +1145,7 @@ figure {
 }
 
 table {
-  width: 100%;
+  width: 90%;
   margin-bottom: 10px;
   font-family: poppins, sans-serif;
 }
