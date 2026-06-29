@@ -791,15 +791,26 @@ body {
   justify-content: center;
 }
 
-.container5 {
-  max-width: 90%;
+.container1 {
+  max-width: 80%;
   flex-wrap: wrap;
   margin-top: 10%;
-  margin: 5%;
+  margin: 10%;
+  justify-content: center;
+  background-color: #3F819C;
+  border-radius: 20px 20px;
+  padding: 10px 10px;
+}
+
+.container5 {
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin: 10%;
   justify-content: center;
   background-color: var(--variable-color3);
   border-radius: 20px;
-  padding: 5px 5px;
+  padding: 20px 20px;
 }
 
 .container2 {
@@ -830,7 +841,7 @@ body {
 }
 
 .section {
-  margin: 5rem 5rem;
+  margin: 2rem 2rem;
 }
 
 .section h2 {
@@ -936,7 +947,7 @@ main {
 }
 
 .img1 {
-  width: 80%;
+  width: 95%;
   height: auto;
   align-items: center;
   margin: 20px 20px;
